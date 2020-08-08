@@ -1,6 +1,7 @@
 {%- set ccIcon = '<i class="fab fa-fw fa-creative-commons"></i>' %}
 {%- set ccText = theme.creative_commons.license | upper %}
 
+{% if page.copyright %}
 <div>
 <ul class="post-copyright">
   <li class="post-copyright-author">
@@ -17,3 +18,4 @@
   </li>
 </ul>
 </div>
+{% endif %}
