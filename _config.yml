@@ -110,5 +110,7 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
     type: git
-    repo: https://gitee.com/xezzon/xezzon
-    branch: gh-pages
+    # repo: https://gitee.com/xezzon/xezzon
+    repo:
+        github: https://github.com/Xezzon/xezzon.github.io,gh-pages
+        # gitee: https://gitee.com/xezzon/xezzon,gh-pages
