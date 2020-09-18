@@ -17,6 +17,8 @@
 <p>初次运行mysql-client,需要执行以下命令，进行数据库密码配置：</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">mysql_secure_installation</span><br></pre></td></tr></table></figure>
 <p>至此，已经可以开始使用mysql-server了。</p>
+<a id="more"></a>
+
 <h2 id="安装mysql-client"><a href="#安装mysql-client" class="headerlink" title="安装mysql-client"></a>安装mysql-client</h2><p>安装Arch Linux的mariadb包会自动安装mariadb-client。若未自动安装，执行以下命令：</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pacman -S mariadb-clients</span><br></pre></td></tr></table></figure>
 <h2 id="使用mysql-client连接mysql-server"><a href="#使用mysql-client连接mysql-server" class="headerlink" title="使用mysql-client连接mysql-server"></a>使用mysql-client连接mysql-server</h2><p>执行命令：</p>
