@@ -112,5 +112,5 @@ deploy:
     type: git
     # repo: https://gitee.com/xezzon/xezzon
     repo:
-        github: https://github.com/Xezzon/xezzon.github.io,gh-pages
+        github: git@github.com:Xezzon/xezzon.github.io.git,gh-pages
         # gitee: https://gitee.com/xezzon/xezzon,gh-pages
